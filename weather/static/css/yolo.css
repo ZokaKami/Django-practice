@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+body{
+  background-color:  hsl(0, 0%, 95%);
+}
+.col-sm-3{
+  height: auto;
+padding:15px;
+padding-bottom: 30px;
+min-width: 140px;
+margin-top: 80px;
+}
+.cardone{
+  margin-left: 10%;
+  background-color: hsl(31, 77%, 52%);
+
+}
+.cardtwo{
+  background-color: hsl(184, 100%, 22%);
+}
+.cardthree{
+  background-color: hsl(179, 100%, 13%);
+}
+.svgicon{
+margin-top:25px;
+margin-left:20px;
+}
+h1{
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+padding:20px;
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  padding:20px;
+  padding-bottom:100px;
+}
+button{
+  position: absolute;
+  bottom: 45px;
+  font-family:'Big Shoulders Display';
+  font-weight: 700;
+  height: 50px;
+  width: 50%;
+  border-radius: 25px 25px 25px 25px;
+  margin-left: 10px;
+  border:0;
+
+
+}
+
+.cardone >button{
+  background-color:hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+}
+.cardone >button:hover{
+  background-color:hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border:solid 3px;
+  border-color:hsl(0, 0%, 95%);
+
+}
+
+.cardtwo >button{
+  background-color:hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+}
+.cardtwo >button:hover{
+  background-color:hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border:solid 3px;
+  border-color: hsl(0, 0%, 95%);
+
+}
+.cardthree >button{
+  background-color:hsl(0, 0%, 95%);
+  color:  hsl(179, 100%, 13%);
+}
+.cardthree >button:hover{
+  background-color:hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border:solid 3px;
+  border-color:hsl(179, 100%, 13%));
+
+}
+@media only screen and (max-width: 575px) {
+  .col-sm-3 {
+    margin:0;
+  }
+}
